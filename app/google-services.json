@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "276293680599",
+    "firebase_url": "https://fir-demoone.firebaseio.com",
+    "project_id": "fir-demoone",
+    "storage_bucket": "fir-demoone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276293680599:android:cb7a43a4737cd9c2",
+        "android_client_info": {
+          "package_name": "com.aldoapps.firebasedemoone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276293680599-dcfrk1jk1d1j2vdj6l4ojmma77l702om.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aldoapps.firebasedemoone",
+            "certificate_hash": "DD5726CBA3AF3CDBFE631638D149BF6DA45D37D7"
+          }
+        },
+        {
+          "client_id": "276293680599-q4ntndefkq0marlki2m21n1mgl07t9ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZNGbccs-39l7TUCsSN8RWqM4LyrpE6dg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276293680599-q4ntndefkq0marlki2m21n1mgl07t9ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
