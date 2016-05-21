@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 //            updateCurrentDinosaur();
 //            deleteDinosaur();
 //            pushSomeDinosaurs();
-            queryDinosaur();
+//            queryDinosaur();
         });
 
         mDinoRef.addChildEventListener(new ChildEventListener() {
@@ -167,8 +167,8 @@ public class MainActivity extends AppCompatActivity {
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 Dinosaur dinosaur = dataSnapshot.getValue(Dinosaur.class);
                 stringBuilder.append(dinosaur.getName());
+                stringBuilder.append("\n");
 
-                mQueryInfo.setText("  ");
                 mQueryInfo.setText(stringBuilder.toString());
             }
 
